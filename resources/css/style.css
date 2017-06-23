@@ -1,0 +1,46 @@
+html {
+  font-family: Verdana;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  width: 95%;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 5;
+}
+
+.logo {
+  font-size: 14px;
+  font-weight: bold;
+  color: mediumaquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navs {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  width: 75px;
+  text-align: center;
+  border: 1px solid orange;
+}
+
+nav span a {
+  color: black;
+}
+
+.background {
+  background-image: url("../../resources/images/pattern.jpeg");
+  z-index: 1;
+}
